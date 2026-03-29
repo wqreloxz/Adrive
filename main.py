@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import argparse, subprocess, os, sys, re, shutil, datetime, json, signal, socket
 
-VERSION = "4.3.0"
+VERSION = "1.0"
 LOG_FILE = "/var/log/adrive.log"
 XBPS_LOCK = "/var/db/xbps/.lock"
 
